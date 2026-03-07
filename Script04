@@ -1,0 +1,6 @@
+#!/bin/bash
+#This is creation and calling of shell variable --- defining variables
+Name-Neha
+No=25
+PROFESSION=AWS/DevSecOps/Azure DevOps
+echo "Name is $Name, No is $No, We are learning $PROFESSION"
