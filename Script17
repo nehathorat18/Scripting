@@ -6,5 +6,5 @@ number_one () {
 number_two () {
  echo "This is now the second function speaking..."
 }
-# Calling function one.
+# Calling function one
 number_one
