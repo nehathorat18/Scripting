@@ -1,0 +1,17 @@
+#!/bin/bash
+#
+###try using set -e -u -o
+#
+set -euo pipefail
+
+#echo "Using undefined variable"
+#echo "Using undefined $variable"
+#echo "stop"
+
+#echo "Using command that can fail"
+#cat abc.txt
+#echo "stop"
+
+echo "Start"
+false | true
+echo "stop"
