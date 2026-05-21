@@ -4,3 +4,10 @@ ls -lrt
 echo $?
 echo "here if the value is 0 this command is sucessful"
 
+
+#!/bin/bash
+echo "Today's date is:"
+date
+echo "Current directory contents:"
+ls -l
+
